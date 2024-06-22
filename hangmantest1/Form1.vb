@@ -21,15 +21,10 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         startGame()
-        FormDesign()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         startGame()
-    End Sub
-
-    Public Sub FormDesign()
-        Panel1.BackColor = ColorTranslator.FromHtml("#0f183c")
     End Sub
 
     Public Sub startGame()
@@ -63,30 +58,7 @@ Public Class Form1
         PictureBox9.Image = bombImage
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        If gameOver OrElse gameWon Then
-            MessageBox.Show("The game is over")
-            Return
-        End If
-
-        Dim input As String = TextBox1.Text.Trim().ToLower()
-        If input.Length = 1 AndAlso Char.IsLetter(input(0)) Then
-            letterInput = input(0)
-            If Not guessedLetters.Contains(letterInput) Then
-                guessedLetters.Add(letterInput)
-                updateDisplayedWord()
-            Else
-                MessageBox.Show("You have already guessed that letter.")
-            End If
-        Else
-            MessageBox.Show("enter a single letter")
-        End If
-
-        TextBox1.Clear()
-        TextBox1.Focus()
-    End Sub
-
-    Private Sub updateDisplayedWord()
+    Private Function updateDisplayedWord()
         Dim newDisplayedWord As Char() = displayedWord.ToCharArray()
         Dim correctGuess As Boolean = False
 
@@ -113,41 +85,34 @@ Public Class Form1
             gameOver = True
             MessageBox.Show("Game Over! The word was: " & wordToGuess)
         End If
-    End Sub
 
-    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        If correctGuess Then
+            Return True
+        End If
+        Return False
+    End Function
 
-    End Sub
+    Private Sub ButtonKey_Click(sender As Object, e As EventArgs) Handles ButtonQ.Click, ButtonW.Click, ButtonE.Click, ButtonR.Click, ButtonT.Click, ButtonY.Click, ButtonU.Click, ButtonI.Click, ButtonO.Click, ButtonP.Click, ButtonA.Click, ButtonS.Click, ButtonD.Click, ButtonF.Click, ButtonG.Click, ButtonH.Click, ButtonJ.Click, ButtonK.Click, ButtonL.Click, ButtonZ.Click, ButtonX.Click, ButtonC.Click, ButtonV.Click, ButtonB.Click, ButtonN.Click, ButtonM.Click
+        If sender.BackColor = Color.Lime Then
+            Return
+        End If
 
-    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        If gameOver OrElse gameWon Then
+            MessageBox.Show("The game is over")
+            MessageBox.Show("Or is it?")
+            Return
+        End If
 
-    End Sub
+        letterInput = sender.Text.ToLower()
+        If Not guessedLetters.Contains(letterInput) Then
+            guessedLetters.Add(letterInput)
+            Dim correctGuess As Boolean = updateDisplayedWord()
 
-    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
-
-    End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
-    End Sub
-
-    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
-
-    End Sub
-
-    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
-
-    End Sub
-
-    Private Sub PictureBox9_Click(sender As Object, e As EventArgs) Handles PictureBox9.Click
-
-    End Sub
-
-    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
-
-    End Sub
-
-    Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
-
+            If correctGuess Then
+                sender.BackColor = Color.Lime
+            Else
+                sender.Enabled = False
+            End If
+        End If
     End Sub
 End Class
