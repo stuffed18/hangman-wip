@@ -4,7 +4,7 @@ Public Class Form1
     Dim displayedWord As String
     Dim guessedLetters As New List(Of Char)()
     Dim remainingAttempts As Integer
-    Dim maxAttempts As Integer = 6
+    Dim maxAttempts As Integer = 9
     Dim letterInput As Char
     Dim gameWon As Boolean
     Dim gameOver As Boolean
@@ -39,8 +39,15 @@ Public Class Form1
         displayedWord = New String("_"c, wordToGuess.Length)
         Label1.Text = displayedWord
         Panel2.BackColor = Color.Black
-
         PictureBoxSet()
+
+        Dim keyboardButtons As Button() = {ButtonA, ButtonB, ButtonC, ButtonD, ButtonE, ButtonF, ButtonG, ButtonH, ButtonI, ButtonJ, ButtonK, ButtonL, ButtonM, ButtonN, ButtonO, ButtonP, ButtonQ, ButtonR, ButtonS, ButtonT, ButtonU, ButtonV, ButtonW, ButtonX, ButtonY, ButtonZ}
+        For Each btn As Button In keyboardButtons
+            btn.Enabled = True ' Disable the button
+            btn.BackColor = SystemColors.Control ' Reset BackColor to default (system) color
+        Next
+
+
     End Sub
 
     Public Sub PictureBoxSet()
@@ -53,9 +60,9 @@ Public Class Form1
         PictureBox4.Image = bombImage
         PictureBox5.Image = bombImage
         PictureBox6.Image = bombImage
-        PictureBox7.Image = bombImage
-        PictureBox8.Image = bombImage
         PictureBox9.Image = bombImage
+        PictureBox8.Image = bombImage
+        PictureBox7.Image = bombImage
     End Sub
 
     Private Function updateDisplayedWord()
@@ -73,6 +80,8 @@ Public Class Form1
             remainingAttempts -= 1
             Label3.Text = "Remaining Attempts: " & remainingAttempts
         End If
+
+        updateAttemptBoxes()
 
         displayedWord = New String(newDisplayedWord)
         Label1.Text = displayedWord
@@ -114,5 +123,16 @@ Public Class Form1
                 sender.Enabled = False
             End If
         End If
+
     End Sub
+
+    Public Sub updateAttemptBoxes()
+        Dim attemptBoxes As PictureBox() = {PictureBox1, PictureBox2, PictureBox1, PictureBox2, PictureBox3, PictureBox4, PictureBox5, PictureBox6, PictureBox9, PictureBox8, PictureBox7}
+        Dim index As Integer = 10 - remainingAttempts
+        If index > 0 Then
+            attemptBoxes(index).Image = ImageList1.Images(1)
+        End If
+    End Sub
+
 End Class
+
