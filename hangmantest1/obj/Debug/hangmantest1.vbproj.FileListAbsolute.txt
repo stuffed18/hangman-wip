@@ -10,3 +10,15 @@ C:\Users\kiren\source\repos\hangmantest1\hangmantest1\obj\Debug\hangmantest1.vbp
 C:\Users\kiren\source\repos\hangmantest1\hangmantest1\obj\Debug\hangmantest1.exe
 C:\Users\kiren\source\repos\hangmantest1\hangmantest1\obj\Debug\hangmantest1.xml
 C:\Users\kiren\source\repos\hangmantest1\hangmantest1\obj\Debug\hangmantest1.pdb
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\bin\Debug\hangmantest1.exe.config
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\bin\Debug\hangmantest1.exe
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\bin\Debug\hangmantest1.pdb
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\bin\Debug\hangmantest1.xml
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.vbproj.AssemblyReference.cache
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.Form1.resources
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.Resources.resources
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.vbproj.GenerateResource.cache
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.vbproj.CoreCompileInputs.cache
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.exe
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.xml
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.pdb

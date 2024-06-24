@@ -127,12 +127,11 @@ Public Class Form1
     End Sub
 
     Public Sub updateAttemptBoxes()
-        Dim attemptBoxes As PictureBox() = {PictureBox1, PictureBox2, PictureBox1, PictureBox2, PictureBox3, PictureBox4, PictureBox5, PictureBox6, PictureBox9, PictureBox8, PictureBox7}
-        Dim index As Integer = 10 - remainingAttempts
-        If index > 0 Then
+        Dim attemptBoxes As PictureBox() = {PictureBox1, PictureBox2, PictureBox3, PictureBox6, PictureBox5, PictureBox4, PictureBox7, PictureBox8, PictureBox9}
+        Dim index As Integer = maxAttempts - remainingAttempts - 1
+        If index >= 0 Then
             attemptBoxes(index).Image = ImageList1.Images(1)
         End If
     End Sub
-
 End Class
 
