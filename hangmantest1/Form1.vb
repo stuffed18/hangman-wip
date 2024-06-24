@@ -11,11 +11,11 @@ Public Class Form1
     Dim wordToGuess As String
     Dim wordList As New List(Of String)() From {
         "subodh",
-        "exploding",
+        "explodin",
         "test",
         "bangman",
         "benson",
-        "raffayharpoon",
+        "raffay",
         "blue"
     }
 
@@ -36,7 +36,11 @@ Public Class Form1
         gameWon = False
         gameOver = False
         Label2.Text = wordToGuess
-        displayedWord = New String("_"c, wordToGuess.Length)
+        displayedWord = ""
+        For i As Integer = 1 To wordToGuess.Length
+            displayedWord = displayedWord & "_ "
+        Next
+        'displayedWord = New String("_"c, wordToGuess.Length)
         Label1.Text = displayedWord
         Panel2.BackColor = Color.Black
         PictureBoxSet()
@@ -71,7 +75,7 @@ Public Class Form1
 
         For i As Integer = 0 To wordToGuess.Length - 1
             If wordToGuess(i) = letterInput Then
-                newDisplayedWord(i) = letterInput
+                newDisplayedWord(i * 2) = letterInput
                 correctGuess = True
             End If
         Next
@@ -85,7 +89,7 @@ Public Class Form1
         displayedWord = New String(newDisplayedWord)
         Label1.Text = displayedWord
 
-        If displayedWord = wordToGuess Then
+        If Not displayedWord.Contains("_") Then
             gameWon = True
             gameOver = True
             MessageBox.Show("You won!")
