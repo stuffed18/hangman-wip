@@ -78,7 +78,6 @@ Public Class Form1
 
         If Not correctGuess Then
             remainingAttempts -= 1
-            Label3.Text = "Remaining Attempts: " & remainingAttempts
         End If
 
         updateAttemptBoxes()
