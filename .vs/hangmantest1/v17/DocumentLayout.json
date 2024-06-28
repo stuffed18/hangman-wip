@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\benson\\school\\year 10 ist\\submission vb programs\\hangman-wip\\hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,22 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\Form1.vb",
-              "RelativeDocumentMoniker": "hangmantest1\\Form1.vb",
-              "ToolTip": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\Form1.vb",
-              "RelativeToolTip": "hangmantest1\\Form1.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-30T09:50:35.197Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -49,13 +35,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\Form1.vb",
+              "RelativeDocumentMoniker": "hangmantest1\\Form1.vb",
+              "ToolTip": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\Form1.vb",
+              "RelativeToolTip": "hangmantest1\\Form1.vb",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAIwG8AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-25T02:49:18.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\Form1.vb",
               "RelativeDocumentMoniker": "hangmantest1\\Form1.vb",
               "ToolTip": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\Form1.vb [Design]",
               "RelativeToolTip": "hangmantest1\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-30T09:48:09.74Z",
+              "WhenOpened": "2024-06-26T00:27:46.521Z",
               "EditorCaption": " [Design]"
             }
           ]
