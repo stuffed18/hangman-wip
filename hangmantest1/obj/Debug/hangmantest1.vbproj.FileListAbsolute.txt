@@ -36,3 +36,5 @@ C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.Res
 C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.vbproj.CoreCompileInputs.cache
 C:\Users\kiren\source\repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.MenuForm.resources
 C:\Users\kiren\source\repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.Form2.resources
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.Form2.resources
+C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.MenuForm.resources

@@ -1,16 +1,60 @@
 ﻿
 Module GlobalVariables
     Public WordList1 As New List(Of String) From {
-        "subodh",
-        "raffay",
-        "sonofben",
-        "iforgor"
+        "wire",
+        "fuse",
+        "volt",
+        "radio",
+        "virus",
+        "pixel",
+        "laptop",
+        "camera",
+        "charge",
+        "circuit",
+        "binary",
+        "current",
+        "power",
+        "battery",
+        "cable",
+        "conduct"
     }
     Public WordList2 As New List(Of String) From {
-        "hello",
-        "harpoon",
-        "impostor",
-        "seanmoment"
+        "file",
+        "pick",
+        "drill",
+        "spade",
+        "ruler",
+        "knife",
+        "pliers",
+        "wrench",
+        "chisel",
+        "hammer",
+        "crowbar",
+        "spanner",
+        "scalpel"
+    }
+    Public WordList3 As New List(Of String) From {
+        "bond",
+        "cook",
+        "ford",
+        "saki",
+        "smith",
+        "jones",
+        "obama",
+        "tesla",
+        "nobel",
+        "darwin",
+        "watson",
+        "cruise",
+        "freeman",
+        "holmes",
+        "caesar",
+        "lincoln",
+        "mandela",
+        "hawking",
+        "rolwing",
+        "tolkien",
+        "capulet"
     }
 End Module
 
