@@ -11,5 +11,16 @@ Public Class MenuForm
     Private Sub MenuForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Button1.BackColor = Color.Transparent
         Button1.ForeColor = Color.White
+        Button1.FlatAppearance.BorderSize = 0
+
+        Button2.BackColor = Color.Transparent
+        Button2.ForeColor = Color.White
+        Button2.FlatAppearance.BorderSize = 0
+        Button3.BackColor = Color.Transparent
+        Button3.ForeColor = Color.White
+        Button3.FlatAppearance.BorderSize = 0
+
     End Sub
+
+
 End Class

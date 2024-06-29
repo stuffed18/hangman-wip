@@ -32,43 +32,49 @@ Partial Class MenuForm
         Me.Button1.BackColor = System.Drawing.SystemColors.Control
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 32.0!)
-        Me.Button1.Location = New System.Drawing.Point(571, 164)
+        Me.Button1.Location = New System.Drawing.Point(761, 202)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(138, 69)
+        Me.Button1.Size = New System.Drawing.Size(184, 85)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Play"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.Button2.Location = New System.Drawing.Point(571, 235)
+        Me.Button2.Location = New System.Drawing.Point(761, 291)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(138, 40)
+        Me.Button2.Size = New System.Drawing.Size(184, 49)
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Settings"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.Button3.Location = New System.Drawing.Point(571, 278)
+        Me.Button3.Location = New System.Drawing.Point(761, 343)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(138, 40)
+        Me.Button3.Size = New System.Drawing.Size(184, 49)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Tutorial"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'MenuForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.hangmantest1.My.Resources.Resources.bombdefusalwallpaper
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "MenuForm"
         Me.Text = "MenuForm"
         Me.TransparencyKey = System.Drawing.Color.RosyBrown
