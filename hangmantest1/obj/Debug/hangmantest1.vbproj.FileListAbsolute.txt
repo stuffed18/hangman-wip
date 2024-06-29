@@ -22,3 +22,17 @@ C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj
 C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.exe
 C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.xml
 C:\Benson\School\Year 10 IST\Submission VB Programs\hangman-wip\hangmantest1\obj\Debug\hangmantest1.pdb
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.vbproj.AssemblyReference.cache
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.Form1.resources
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.vbproj.GenerateResource.cache
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.exe
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.xml
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.pdb
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\bin\Debug\hangmantest1.exe.config
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\bin\Debug\hangmantest1.exe
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\bin\Debug\hangmantest1.pdb
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\bin\Debug\hangmantest1.xml
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.Resources.resources
+C:\Users\kiren\Source\Repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.vbproj.CoreCompileInputs.cache
+C:\Users\kiren\source\repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.MenuForm.resources
+C:\Users\kiren\source\repos\hangman2-wip\hangmantest1\obj\Debug\hangmantest1.Form2.resources

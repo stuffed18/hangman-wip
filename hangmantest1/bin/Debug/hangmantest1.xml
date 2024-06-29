@@ -22,6 +22,11 @@ hangmantest1
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:hangmantest1.My.Resources.Resources.bombdefusalwallpaper">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:hangmantest1.My.Resources.Resources.warehouse_background_pzkv8y7kvdmmnyej">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

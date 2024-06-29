@@ -9,15 +9,10 @@ Public Class Form1
     Dim gameWon As Boolean
     Dim gameOver As Boolean
     Dim wordToGuess As String
-    Dim wordList As New List(Of String)() From {
-        "subodh",
-        "explodin",
-        "test",
-        "bangman",
-        "benson",
-        "raffay",
-        "blue"
-    }
+    Dim TimerTime As Integer = 15
+
+    ' Property to store the chosen word list from Form2 (idk if this works rn)
+    Public Property SelectedWordListIndex As Integer
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         startGame()
@@ -28,6 +23,13 @@ Public Class Form1
     End Sub
 
     Public Sub startGame()
+        Dim wordList As List(Of String)
+        If SelectedWordListIndex = 1 Then
+            wordList = GlobalVariables.WordList1
+        Else
+            wordList = GlobalVariables.WordList2
+        End If
+
         Dim random As New Random()
         Dim randomIndex As Integer = random.Next(wordList.Count)
         wordToGuess = wordList(randomIndex)
@@ -38,24 +40,27 @@ Public Class Form1
         Label2.Text = wordToGuess
         displayedWord = ""
         For i As Integer = 1 To wordToGuess.Length
-            displayedWord = displayedWord & "_ "
+            displayedWord &= "_ "
         Next
-        'displayedWord = New String("_"c, wordToGuess.Length)
         Label1.Text = displayedWord
         Panel2.BackColor = Color.Black
         PictureBoxSet()
 
         Dim keyboardButtons As Button() = {ButtonA, ButtonB, ButtonC, ButtonD, ButtonE, ButtonF, ButtonG, ButtonH, ButtonI, ButtonJ, ButtonK, ButtonL, ButtonM, ButtonN, ButtonO, ButtonP, ButtonQ, ButtonR, ButtonS, ButtonT, ButtonU, ButtonV, ButtonW, ButtonX, ButtonY, ButtonZ}
         For Each btn As Button In keyboardButtons
-            btn.Enabled = True ' Disable the button
-            btn.BackColor = SystemColors.Control ' Reset BackColor to default (system) color
+            btn.Enabled = True
+            btn.BackColor = SystemColors.Control
         Next
 
+        ' Timer code below
+        Label4.Text = "0:59"
+        TimerTime = 15
+        Label4.Text = "0:" & TimerTime
 
+        Timer1.Start()
     End Sub
 
     Public Sub PictureBoxSet()
-
         Dim bombImage As Image = ImageList1.Images(0)
 
         PictureBox1.Image = bombImage
@@ -136,5 +141,20 @@ Public Class Form1
             attemptBoxes(index).Image = ImageList1.Images(1)
         End If
     End Sub
-End Class
 
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        If TimerTime > 0 Then
+            TimerTime -= 1
+        End If
+        If TimerTime >= 10 Then
+            Label4.Text = "0:" & TimerTime
+        ElseIf TimerTime < 10 AndAlso TimerTime > 0 Then
+            Label4.Text = "0:0" & TimerTime
+        ElseIf TimerTime = 0 Then
+            Label4.Text = "0:00"
+            Timer1.Stop()
+            gameOver = True
+            MessageBox.Show("Time's up! The word was: " & wordToGuess)
+        End If
+    End Sub
+End Class
