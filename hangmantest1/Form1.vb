@@ -18,6 +18,8 @@ Public Class Form1
         "raffay",
         "blue"
     }
+    Dim TimerTime As Integer = 15
+
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         startGame()
@@ -50,6 +52,13 @@ Public Class Form1
             btn.Enabled = True ' Disable the button
             btn.BackColor = SystemColors.Control ' Reset BackColor to default (system) color
         Next
+
+        ' Timer code below
+        Label4.Text = "0:59"
+        TimerTime = 15
+        Label4.Text = "0:" & TimerTime
+
+        Timer1.Start()
 
 
     End Sub
@@ -136,5 +145,21 @@ Public Class Form1
             attemptBoxes(index).Image = ImageList1.Images(1)
         End If
     End Sub
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        If TimerTime > 0 Then
+            TimerTime -= 1
+        End If
+        If TimerTime >= 10 Then
+            Label4.Text = "0:" & TimerTime
+        ElseIf TimerTime < 10 AndAlso TimerTime > 0 Then
+            Label4.Text = "0:0" & TimerTime
+        ElseIf TimerTime = 0 Then
+            Label4.Text = "0:00"
+            Timer1.Stop()
+            MessageBox.Show("Time's up")
+
+        End If
+    End Sub
+
 End Class
 
