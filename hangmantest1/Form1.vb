@@ -37,7 +37,7 @@ Public Class Form1
         remainingAttempts = maxAttempts
         gameWon = False
         gameOver = False
-        Label2.Text = wordToGuess
+        'Label2.Text = wordToGuess
         displayedWord = ""
         For i As Integer = 1 To wordToGuess.Length
             displayedWord &= "_ "
@@ -97,9 +97,11 @@ Public Class Form1
         If Not displayedWord.Contains("_") Then
             gameWon = True
             gameOver = True
+            Timer1.Stop()
             MessageBox.Show("You won!")
         ElseIf remainingAttempts <= 0 Then
             gameOver = True
+            Timer1.Stop()
             MessageBox.Show("Game Over! The word was: " & wordToGuess)
         End If
 
