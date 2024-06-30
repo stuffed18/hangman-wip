@@ -159,5 +159,8 @@
   <ItemGroup>
     <None Include="Resources\360_F_358406886_CFSfvX66AmffYaxp2ezl6sSdY5xwQN4T.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bangman.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

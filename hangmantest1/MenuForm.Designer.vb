@@ -25,6 +25,8 @@ Partial Class MenuForm
         Me.ButtonPlay = New System.Windows.Forms.Button()
         Me.ButtonSettings = New System.Windows.Forms.Button()
         Me.ButtonTutorial = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ButtonPlay
@@ -67,6 +69,16 @@ Partial Class MenuForm
         Me.ButtonTutorial.Text = "Tutorial"
         Me.ButtonTutorial.UseVisualStyleBackColor = True
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.hangmantest1.My.Resources.Resources.bangman
+        Me.PictureBox1.Location = New System.Drawing.Point(584, 41)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(134, 87)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 3
+        Me.PictureBox1.TabStop = False
+        '
         'MenuForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -74,12 +86,14 @@ Partial Class MenuForm
         Me.BackgroundImage = Global.hangmantest1.My.Resources.Resources.bombdefusalwallpaper
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(804, 461)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ButtonTutorial)
         Me.Controls.Add(Me.ButtonSettings)
         Me.Controls.Add(Me.ButtonPlay)
         Me.Name = "MenuForm"
         Me.Text = "MenuForm"
         Me.TransparencyKey = System.Drawing.Color.RosyBrown
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -87,4 +101,5 @@ Partial Class MenuForm
     Friend WithEvents ButtonPlay As Button
     Friend WithEvents ButtonSettings As Button
     Friend WithEvents ButtonTutorial As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
