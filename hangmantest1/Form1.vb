@@ -1,4 +1,5 @@
-﻿Imports System.Reflection.Emit
+﻿Imports System.ComponentModel
+Imports System.Reflection.Emit
 Imports Microsoft.VisualBasic.Devices
 
 Public Class Form1
@@ -13,6 +14,7 @@ Public Class Form1
     Dim TimerTime As Integer = 15
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        My.Computer.Audio.Play("Defusing.wav", AudioPlayMode.BackgroundLoop)
         startGame()
     End Sub
 
