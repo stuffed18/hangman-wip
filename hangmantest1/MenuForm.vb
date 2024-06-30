@@ -4,9 +4,9 @@ Public Class MenuForm
     'Public Property SelectedWordListIndex As Integer
 
     Private Sub ButtonPlay_Click(sender As Object, e As EventArgs) Handles ButtonPlay.Click
-        Dim gameForm As New Form1
+        Dim missionForm As New MissionForm
         'gameForm.SelectedWordListIndex = SelectedWordListIndex
-        gameForm.Show()
+        missionForm.Show()
         Me.Hide()
     End Sub
 

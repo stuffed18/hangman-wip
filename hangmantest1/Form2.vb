@@ -104,6 +104,7 @@ Module GlobalVariables
 
     Public whichWordList As Integer = 1
     Public timeSelected As Integer = 1
+    Public globalUsername As String = ""
 End Module
 
 Public Class Form2

@@ -62,6 +62,11 @@ hangmantest1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:hangmantest1.My.Resources.Resources.grid_room_in_perspective_illustration_in_3d_style_indoor_wireframe_from_green_lines_template_interior_square_digital_empty_box_laser_beam_on_black_background_vector">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:hangmantest1.My.Resources.Resources.metallic_background_with_grunge_scratched_effect">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

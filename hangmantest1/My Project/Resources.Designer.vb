@@ -143,6 +143,18 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property grid_room_in_perspective_illustration_in_3d_style_indoor_wireframe_from_green_lines_template_interior_square_digital_empty_box_laser_beam_on_black_background_vector() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("grid-room-in-perspective-illustration-in-3d-style-indoor-wireframe-from-green-lin"& _ 
+                        "es-template-interior-square-digital-empty-box-laser-beam-on-black-background-vec"& _ 
+                        "tor", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property metallic_background_with_grunge_scratched_effect() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("metallic-background-with-grunge-scratched-effect", resourceCulture)
