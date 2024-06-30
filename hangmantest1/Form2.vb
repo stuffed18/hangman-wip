@@ -16,7 +16,25 @@ Module GlobalVariables
         "power",
         "battery",
         "cable",
-        "conduct"
+        "conduct",
+        "input",
+        "output",
+        "signal",
+        "system",
+        "memory",
+        "switch",
+        "display",
+        "remote",
+        "reboot",
+        "channel",
+        "network",
+        "program",
+        "server",
+        "plug",
+        "data",
+        "boot",
+        "chip",
+        "port"
     }
     Public WordList2 As New List(Of String) From {
         "file",
@@ -31,7 +49,19 @@ Module GlobalVariables
         "hammer",
         "crowbar",
         "spanner",
-        "scalpel"
+        "scalpel",
+        "stapler",
+        "trowel",
+        "clamp",
+        "mallet",
+        "shears",
+        "punch",
+        "shovel",
+        "tongs",
+        "welder",
+        "jack",
+        "vise",
+        "wedge"
     }
     Public WordList3 As New List(Of String) From {
         "bond",
@@ -54,7 +84,24 @@ Module GlobalVariables
         "hawking",
         "rowling",
         "tolkien",
-        "capulet"
+        "capulet",
+        "james",
+        "walker",
+        "howard",
+        "gomez",
+        "taylor",
+        "turner",
+        "evans",
+        "clark",
+        "lopez",
+        "harris",
+        "white",
+        "parker",
+        "murphy",
+        "ross",
+        "cooper",
+        "bell",
+        "nelson"
     }
 
     Public whichWordList As Integer = 1
