@@ -60,8 +60,21 @@ Public Class Form1
 
         ' Timer code below
         Label4.Text = "0:59"
-        TimerTime = 15
-        Label4.Text = "0:" & TimerTime
+        Dim timerOptions = {120, 60, 45, 30}
+        TimerTime = timerOptions(GlobalVariables.timeSelected - 1)
+
+        Dim SecondsRemainder As Integer = 0
+        Dim Minutes As Integer = 0
+        Minutes = TimerTime \ 60
+        SecondsRemainder = TimerTime - (60 * Minutes)
+
+        If SecondsRemainder >= 10 Then
+            Label4.Text = "0" & Minutes & ":" & SecondsRemainder
+        ElseIf SecondsRemainder < 10 AndAlso TimerTime > 0 Then
+            Label4.Text = "0" & Minutes & ":0" & SecondsRemainder
+        ElseIf SecondsRemainder = 0 Then
+            Label4.Text = "0" & Minutes & ":00"
+        End If
 
         Timer1.Start()
     End Sub
@@ -154,12 +167,22 @@ Public Class Form1
         If TimerTime > 0 Then
             TimerTime -= 1
         End If
-        If TimerTime >= 10 Then
-            Label4.Text = "0:" & TimerTime
-        ElseIf TimerTime < 10 AndAlso TimerTime > 0 Then
-            Label4.Text = "0:0" & TimerTime
-        ElseIf TimerTime = 0 Then
-            Label4.Text = "0:00"
+
+        Dim SecondsRemainder As Integer = 0
+        Dim Minutes As Integer = 0
+        Minutes = TimerTime \ 60
+        SecondsRemainder = TimerTime - (60 * Minutes)
+
+        If SecondsRemainder >= 10 Then
+            Label4.Text = "0" & Minutes & ":" & SecondsRemainder
+        ElseIf SecondsRemainder < 10 AndAlso TimerTime > 0 Then
+            Label4.Text = "0" & Minutes & ":0" & SecondsRemainder
+        ElseIf SecondsRemainder = 0 Then
+            Label4.Text = "0" & Minutes & ":00"
+        End If
+
+        If TimerTime = 0 Then
+            Label4.Text = "00:00"
             Timer1.Stop()
             gameOver = True
             MessageBox.Show("Time's up! The word was: " & wordToGuess)

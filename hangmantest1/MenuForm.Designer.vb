@@ -22,58 +22,65 @@ Partial Class MenuForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.ButtonPlay = New System.Windows.Forms.Button()
+        Me.ButtonSettings = New System.Windows.Forms.Button()
+        Me.ButtonTutorial = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'ButtonPlay
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.Control
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 32.0!)
-        Me.Button1.Location = New System.Drawing.Point(571, 164)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(138, 69)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Play"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.ButtonPlay.BackColor = System.Drawing.SystemColors.Control
+        Me.ButtonPlay.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ButtonPlay.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonPlay.Font = New System.Drawing.Font("Microsoft Sans Serif", 32.0!)
+        Me.ButtonPlay.Location = New System.Drawing.Point(761, 202)
+        Me.ButtonPlay.Margin = New System.Windows.Forms.Padding(4)
+        Me.ButtonPlay.Name = "ButtonPlay"
+        Me.ButtonPlay.Size = New System.Drawing.Size(184, 85)
+        Me.ButtonPlay.TabIndex = 0
+        Me.ButtonPlay.Text = "Play"
+        Me.ButtonPlay.UseVisualStyleBackColor = False
         '
-        'Button2
+        'ButtonSettings
         '
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.Button2.Location = New System.Drawing.Point(571, 236)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(138, 40)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Settings"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.ButtonSettings.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ButtonSettings.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonSettings.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
+        Me.ButtonSettings.Location = New System.Drawing.Point(761, 290)
+        Me.ButtonSettings.Margin = New System.Windows.Forms.Padding(4)
+        Me.ButtonSettings.Name = "ButtonSettings"
+        Me.ButtonSettings.Size = New System.Drawing.Size(184, 49)
+        Me.ButtonSettings.TabIndex = 1
+        Me.ButtonSettings.Text = "Settings"
+        Me.ButtonSettings.UseVisualStyleBackColor = True
         '
-        'Button3
+        'ButtonTutorial
         '
-        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.Button3.Location = New System.Drawing.Point(571, 279)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(138, 40)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Tutorial"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.ButtonTutorial.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ButtonTutorial.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonTutorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonTutorial.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
+        Me.ButtonTutorial.Location = New System.Drawing.Point(761, 343)
+        Me.ButtonTutorial.Margin = New System.Windows.Forms.Padding(4)
+        Me.ButtonTutorial.Name = "ButtonTutorial"
+        Me.ButtonTutorial.Size = New System.Drawing.Size(184, 49)
+        Me.ButtonTutorial.TabIndex = 2
+        Me.ButtonTutorial.Text = "Tutorial"
+        Me.ButtonTutorial.UseVisualStyleBackColor = True
         '
         'MenuForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.hangmantest1.My.Resources.Resources.bombdefusalwallpaper
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
+        Me.Controls.Add(Me.ButtonTutorial)
+        Me.Controls.Add(Me.ButtonSettings)
+        Me.Controls.Add(Me.ButtonPlay)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "MenuForm"
         Me.Text = "MenuForm"
         Me.TransparencyKey = System.Drawing.Color.RosyBrown
@@ -81,7 +88,7 @@ Partial Class MenuForm
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents ButtonPlay As Button
+    Friend WithEvents ButtonSettings As Button
+    Friend WithEvents ButtonTutorial As Button
 End Class
