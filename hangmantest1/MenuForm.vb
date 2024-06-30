@@ -29,6 +29,13 @@ Public Class MenuForm
         newForm.Show()
         Me.Hide()
     End Sub
+
+    Private Sub ButtonTutorial_Click(sender As Object, e As EventArgs) Handles ButtonTutorial.Click
+        Dim tutorial As New TutorialForm
+        tutorial.Show()
+        Me.Hide()
+
+    End Sub
 End Class
 
 #If TARGET = "winexe" Then

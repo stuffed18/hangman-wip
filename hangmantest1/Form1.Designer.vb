@@ -573,12 +573,16 @@ Partial Class Form1
         '
         'ButtonExit
         '
+        Me.ButtonExit.BackColor = System.Drawing.Color.Transparent
+        Me.ButtonExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.ButtonExit.ForeColor = System.Drawing.Color.White
         Me.ButtonExit.Location = New System.Drawing.Point(12, 12)
         Me.ButtonExit.Name = "ButtonExit"
         Me.ButtonExit.Size = New System.Drawing.Size(66, 33)
         Me.ButtonExit.TabIndex = 38
-        Me.ButtonExit.Text = "Exit"
-        Me.ButtonExit.UseVisualStyleBackColor = True
+        Me.ButtonExit.Text = "Back"
+        Me.ButtonExit.UseVisualStyleBackColor = False
         '
         'Form1
         '

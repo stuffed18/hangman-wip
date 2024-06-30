@@ -3,31 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\tutorialform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\tutorialform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\tutorialform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\tutorialform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|hangmantest1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,18 +74,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "hangmantest1",
-              "DocumentMoniker": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\hangmantest1.vbproj",
-              "RelativeDocumentMoniker": "hangmantest1\\hangmantest1.vbproj",
-              "ToolTip": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\hangmantest1.vbproj",
-              "RelativeToolTip": "hangmantest1\\hangmantest1.vbproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-30T00:38:01.002Z"
+              "DocumentIndex": 0,
+              "Title": "TutorialForm.vb",
+              "DocumentMoniker": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\TutorialForm.vb",
+              "RelativeDocumentMoniker": "hangmantest1\\TutorialForm.vb",
+              "ToolTip": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\TutorialForm.vb",
+              "RelativeToolTip": "hangmantest1\\TutorialForm.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T06:26:23.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "TutorialForm.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\TutorialForm.vb",
+              "RelativeDocumentMoniker": "hangmantest1\\TutorialForm.vb",
+              "ToolTip": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\TutorialForm.vb [Design]",
+              "RelativeToolTip": "hangmantest1\\TutorialForm.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T06:03:04.649Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Form2.vb",
               "DocumentMoniker": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\Form2.vb",
               "RelativeDocumentMoniker": "hangmantest1\\Form2.vb",
@@ -93,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form2.vb [Design]",
               "DocumentMoniker": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\Form2.vb",
               "RelativeDocumentMoniker": "hangmantest1\\Form2.vb",
@@ -105,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\Form1.vb",
               "RelativeDocumentMoniker": "hangmantest1\\Form1.vb",
@@ -117,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\Form1.vb",
               "RelativeDocumentMoniker": "hangmantest1\\Form1.vb",
@@ -125,12 +144,11 @@
               "RelativeToolTip": "hangmantest1\\Form1.vb",
               "ViewState": "AQIAAHMAAAAAAAAAAAAcwIgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-25T02:49:18.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T02:49:18.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MenuForm.vb [Design]",
               "DocumentMoniker": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\MenuForm.vb",
               "RelativeDocumentMoniker": "hangmantest1\\MenuForm.vb",
@@ -142,13 +160,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MenuForm.vb",
               "DocumentMoniker": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\MenuForm.vb",
               "RelativeDocumentMoniker": "hangmantest1\\MenuForm.vb",
               "ToolTip": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\MenuForm.vb",
               "RelativeToolTip": "hangmantest1\\MenuForm.vb",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBUAAAAnAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-30T00:37:36.545Z",
               "EditorCaption": ""
