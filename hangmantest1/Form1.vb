@@ -1,4 +1,5 @@
 ﻿Imports System.Reflection.Emit
+Imports Microsoft.VisualBasic.Devices
 
 Public Class Form1
     Dim displayedWord As String
