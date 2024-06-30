@@ -12,10 +12,16 @@ Public Class Form1
     Dim gameOver As Boolean
     Dim wordToGuess As String
     Dim TimerTime As Integer = 15
+    Dim gameWins As Integer = 0
+    Dim gameLosses As Integer = 0
+
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         My.Computer.Audio.Play("Defusing.wav", AudioPlayMode.BackgroundLoop)
         startGame()
+        gameWins = 0
+        gameLosses = 0
+        LabelWins.Text = "Wins: " & gameWins & " | Losses: " & gameLosses
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -117,9 +123,13 @@ Public Class Form1
             gameWon = True
             gameOver = True
             Timer1.Stop()
+            gameWins += 1
+            LabelWins.Text = "Wins: " & gameWins & " | Losses: " & gameLosses
             MessageBox.Show("You won!")
         ElseIf remainingAttempts <= 0 Then
             gameOver = True
+            gameLosses += 1
+            LabelWins.Text = "Wins: " & gameWins & " | Losses: " & gameLosses
             Timer1.Stop()
             MessageBox.Show("Game Over! The word was: " & wordToGuess)
         End If
@@ -136,8 +146,7 @@ Public Class Form1
         End If
 
         If gameOver OrElse gameWon Then
-            MessageBox.Show("The game is over")
-            MessageBox.Show("Or is it?")
+            MessageBox.Show("The game has ended")
             Return
         End If
 
@@ -188,4 +197,13 @@ Public Class Form1
             MessageBox.Show("Time's up! The word was: " & wordToGuess)
         End If
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles ButtonExit.Click
+        Dim Menu As New MenuForm
+        Menu.Show()
+        My.Computer.Audio.Play(“EpicChase.wav”, AudioPlayMode.BackgroundLoop)
+        Me.Hide()
+    End Sub
+
+
 End Class

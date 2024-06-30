@@ -19,18 +19,15 @@
       "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|hangmantest1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|hangmantest1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
+      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,15 +69,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "hangmantest1",
               "DocumentMoniker": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\hangmantest1.vbproj",
               "RelativeDocumentMoniker": "hangmantest1\\hangmantest1.vbproj",
               "ToolTip": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\hangmantest1.vbproj",
               "RelativeToolTip": "hangmantest1\\hangmantest1.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-30T00:38:01.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T00:38:01.002Z"
             },
             {
               "$type": "Document",
@@ -90,14 +86,14 @@
               "RelativeDocumentMoniker": "hangmantest1\\Form2.vb",
               "ToolTip": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\Form2.vb",
               "RelativeToolTip": "hangmantest1\\Form2.vb",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwCUAAAAPAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-29T08:39:40.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Form2.vb [Design]",
               "DocumentMoniker": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\Form2.vb",
               "RelativeDocumentMoniker": "hangmantest1\\Form2.vb",
@@ -127,7 +123,7 @@
               "RelativeDocumentMoniker": "hangmantest1\\Form1.vb",
               "ToolTip": "C:\\Users\\kiren\\source\\repos\\hangman2-wip\\hangmantest1\\Form1.vb",
               "RelativeToolTip": "hangmantest1\\Form1.vb",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAgwLgAAAAcAAAA",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAcwIgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-25T02:49:18.707Z",
               "EditorCaption": ""
