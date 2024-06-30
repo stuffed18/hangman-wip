@@ -52,7 +52,7 @@ Module GlobalVariables
         "lincoln",
         "mandela",
         "hawking",
-        "rolwing",
+        "rowling",
         "tolkien",
         "capulet"
     }

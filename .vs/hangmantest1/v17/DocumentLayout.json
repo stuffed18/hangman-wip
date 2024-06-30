@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\benson\\school\\year 10 ist\\submission vb programs\\hangman-wip\\hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -24,10 +28,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\benson\\school\\year 10 ist\\submission vb programs\\hangman-wip\\hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,19 +62,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MenuForm.vb",
-              "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\MenuForm.vb",
-              "RelativeDocumentMoniker": "hangmantest1\\MenuForm.vb",
-              "ToolTip": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\MenuForm.vb",
-              "RelativeToolTip": "hangmantest1\\MenuForm.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-06-30T00:37:36.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "hangmantest1",
               "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\hangmantest1.vbproj",
               "RelativeDocumentMoniker": "hangmantest1\\hangmantest1.vbproj",
@@ -85,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form2.vb",
               "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\Form2.vb",
               "RelativeDocumentMoniker": "hangmantest1\\Form2.vb",
@@ -98,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form2.vb [Design]",
               "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\Form2.vb",
               "RelativeDocumentMoniker": "hangmantest1\\Form2.vb",
@@ -110,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\Form1.vb",
               "RelativeDocumentMoniker": "hangmantest1\\Form1.vb",
@@ -122,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\Form1.vb",
               "RelativeDocumentMoniker": "hangmantest1\\Form1.vb",
@@ -134,16 +121,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e78e0cf7-2e4e-48a7-bf7f-a94d9330a3be}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MenuForm.vb [Design]",
               "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\MenuForm.vb",
               "RelativeDocumentMoniker": "hangmantest1\\MenuForm.vb",
@@ -152,6 +131,27 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-30T02:29:51.277Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuForm.vb",
+              "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\MenuForm.vb",
+              "RelativeDocumentMoniker": "hangmantest1\\MenuForm.vb",
+              "ToolTip": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\MenuForm.vb",
+              "RelativeToolTip": "hangmantest1\\MenuForm.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-30T00:37:36.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e78e0cf7-2e4e-48a7-bf7f-a94d9330a3be}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
