@@ -32,6 +32,16 @@ hangmantest1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:hangmantest1.My.Resources.Resources.BangmanLogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:hangmantest1.My.Resources.Resources.BangmanLogo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:hangmantest1.My.Resources.Resources.bombdefusalwallpaper">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
