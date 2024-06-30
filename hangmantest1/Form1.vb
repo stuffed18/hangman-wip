@@ -11,9 +11,6 @@ Public Class Form1
     Dim wordToGuess As String
     Dim TimerTime As Integer = 15
 
-    ' Property to store the chosen word list from Form2 (idk if this works rn)
-    Public Property SelectedWordListIndex As Integer
-
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         startGame()
     End Sub
@@ -24,10 +21,16 @@ Public Class Form1
 
     Public Sub startGame()
         Dim wordList As List(Of String)
-        If SelectedWordListIndex = 1 Then
-            wordList = GlobalVariables.WordList1
+        Dim wordListOptions = {GlobalVariables.WordList1, GlobalVariables.WordList2, GlobalVariables.WordList3}
+        Dim wordListNames = {"ELECTRONICS", "TOOLS", "SURNAMES"}
+        If GlobalVariables.whichWordList < 4 Then
+            wordList = wordListOptions(GlobalVariables.whichWordList - 1)
+            LabelTheme.Text = wordListNames(GlobalVariables.whichWordList - 1)
         Else
-            wordList = GlobalVariables.WordList2
+            Dim random_ As New Random()
+            Dim randomIndex_ As Integer = random_.Next(3)
+            wordList = wordListOptions(randomIndex_)
+            LabelTheme.Text = wordListNames(randomIndex_)
         End If
 
         Dim random As New Random()

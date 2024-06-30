@@ -68,6 +68,9 @@ Partial Class Form1
         Me.ButtonA = New System.Windows.Forms.Button()
         Me.ButtonQ = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.LabelTheme = New System.Windows.Forms.Label()
+        Me.LabelThemeHeading = New System.Windows.Forms.Label()
+        Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -470,6 +473,8 @@ Partial Class Form1
         '
         'Panel3
         '
+        Me.Panel3.Controls.Add(Me.LabelThemeHeading)
+        Me.Panel3.Controls.Add(Me.LabelTheme)
         Me.Panel3.Controls.Add(Me.Button1)
         Me.Panel3.Controls.Add(Me.ButtonZ)
         Me.Panel3.Controls.Add(Me.ButtonA)
@@ -499,6 +504,7 @@ Partial Class Form1
         Me.Panel3.Controls.Add(Me.ButtonS)
         Me.Panel3.Controls.Add(Me.ButtonF)
         Me.Panel3.Controls.Add(Me.ButtonD)
+        Me.Panel3.Controls.Add(Me.Panel4)
         Me.Panel3.Location = New System.Drawing.Point(121, 108)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel3.Name = "Panel3"
@@ -538,6 +544,37 @@ Partial Class Form1
         'Timer1
         '
         Me.Timer1.Interval = 1000
+        '
+        'LabelTheme
+        '
+        Me.LabelTheme.AutoSize = True
+        Me.LabelTheme.BackColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.LabelTheme.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.LabelTheme.ForeColor = System.Drawing.Color.Red
+        Me.LabelTheme.Location = New System.Drawing.Point(20, 114)
+        Me.LabelTheme.Name = "LabelTheme"
+        Me.LabelTheme.Size = New System.Drawing.Size(154, 25)
+        Me.LabelTheme.TabIndex = 40
+        Me.LabelTheme.Text = "ELECTRONICS"
+        '
+        'LabelThemeHeading
+        '
+        Me.LabelThemeHeading.AutoSize = True
+        Me.LabelThemeHeading.Location = New System.Drawing.Point(21, 93)
+        Me.LabelThemeHeading.Name = "LabelThemeHeading"
+        Me.LabelThemeHeading.Size = New System.Drawing.Size(50, 16)
+        Me.LabelThemeHeading.TabIndex = 41
+        Me.LabelThemeHeading.Text = "Theme"
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.Panel4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!)
+        Me.Panel4.Location = New System.Drawing.Point(18, 111)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(168, 33)
+        Me.Panel4.TabIndex = 8
         '
         'Form1
         '
@@ -612,4 +649,7 @@ Partial Class Form1
     Friend WithEvents ButtonA As Button
     Friend WithEvents ButtonQ As Button
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents LabelThemeHeading As Label
+    Friend WithEvents LabelTheme As Label
+    Friend WithEvents Panel4 As Panel
 End Class

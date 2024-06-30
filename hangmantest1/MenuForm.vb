@@ -1,11 +1,11 @@
 ﻿Imports System.Security
 
 Public Class MenuForm
-    Public Property SelectedWordListIndex As Integer
+    'Public Property SelectedWordListIndex As Integer
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim gameForm As New Form1
-        gameForm.SelectedWordListIndex = SelectedWordListIndex
+        'gameForm.SelectedWordListIndex = SelectedWordListIndex
         gameForm.Show()
         Me.Hide()
     End Sub
