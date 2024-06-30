@@ -210,5 +210,11 @@
   <ItemGroup>
     <None Include="Resources\BangmanLogo2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metallic-background-with-grunge-scratched-effect.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dirty-metal-texture.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

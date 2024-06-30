@@ -133,6 +133,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property dirty_metal_texture() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("dirty-metal-texture", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property metallic_background_with_grunge_scratched_effect() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("metallic-background-with-grunge-scratched-effect", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property settingsWallpaper() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("settingsWallpaper", resourceCulture)

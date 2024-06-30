@@ -64,15 +64,16 @@ Partial Class Form1
         Me.ImageList2 = New System.Windows.Forms.ImageList(Me.components)
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.LabelWins = New System.Windows.Forms.Label()
         Me.LabelThemeHeading = New System.Windows.Forms.Label()
         Me.LabelTheme = New System.Windows.Forms.Label()
         Me.ButtonZ = New System.Windows.Forms.Button()
         Me.ButtonA = New System.Windows.Forms.Button()
         Me.ButtonQ = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.LabelWins = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.ButtonExit = New System.Windows.Forms.Button()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -85,14 +86,16 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(237, 166)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(345, 37)
+        Me.Button1.Size = New System.Drawing.Size(349, 37)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Restart"
         Me.Button1.UseVisualStyleBackColor = True
@@ -228,7 +231,7 @@ Partial Class Form1
         'ButtonW
         '
         Me.ButtonW.Location = New System.Drawing.Point(275, 217)
-        Me.ButtonW.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonW.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonW.Name = "ButtonW"
         Me.ButtonW.Size = New System.Drawing.Size(31, 31)
         Me.ButtonW.TabIndex = 10
@@ -238,7 +241,7 @@ Partial Class Form1
         'ButtonE
         '
         Me.ButtonE.Location = New System.Drawing.Point(311, 217)
-        Me.ButtonE.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonE.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonE.Name = "ButtonE"
         Me.ButtonE.Size = New System.Drawing.Size(31, 31)
         Me.ButtonE.TabIndex = 11
@@ -248,7 +251,7 @@ Partial Class Form1
         'ButtonR
         '
         Me.ButtonR.Location = New System.Drawing.Point(345, 217)
-        Me.ButtonR.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonR.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonR.Name = "ButtonR"
         Me.ButtonR.Size = New System.Drawing.Size(31, 31)
         Me.ButtonR.TabIndex = 12
@@ -258,7 +261,7 @@ Partial Class Form1
         'ButtonI
         '
         Me.ButtonI.Location = New System.Drawing.Point(485, 217)
-        Me.ButtonI.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonI.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonI.Name = "ButtonI"
         Me.ButtonI.Size = New System.Drawing.Size(31, 31)
         Me.ButtonI.TabIndex = 16
@@ -268,7 +271,7 @@ Partial Class Form1
         'ButtonU
         '
         Me.ButtonU.Location = New System.Drawing.Point(449, 217)
-        Me.ButtonU.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonU.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonU.Name = "ButtonU"
         Me.ButtonU.Size = New System.Drawing.Size(31, 31)
         Me.ButtonU.TabIndex = 15
@@ -278,7 +281,7 @@ Partial Class Form1
         'ButtonY
         '
         Me.ButtonY.Location = New System.Drawing.Point(415, 217)
-        Me.ButtonY.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonY.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonY.Name = "ButtonY"
         Me.ButtonY.Size = New System.Drawing.Size(31, 31)
         Me.ButtonY.TabIndex = 14
@@ -288,7 +291,7 @@ Partial Class Form1
         'ButtonT
         '
         Me.ButtonT.Location = New System.Drawing.Point(380, 217)
-        Me.ButtonT.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonT.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonT.Name = "ButtonT"
         Me.ButtonT.Size = New System.Drawing.Size(31, 31)
         Me.ButtonT.TabIndex = 13
@@ -298,7 +301,7 @@ Partial Class Form1
         'ButtonF
         '
         Me.ButtonF.Location = New System.Drawing.Point(365, 258)
-        Me.ButtonF.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonF.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonF.Name = "ButtonF"
         Me.ButtonF.Size = New System.Drawing.Size(31, 31)
         Me.ButtonF.TabIndex = 20
@@ -308,7 +311,7 @@ Partial Class Form1
         'ButtonD
         '
         Me.ButtonD.Location = New System.Drawing.Point(329, 258)
-        Me.ButtonD.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonD.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonD.Name = "ButtonD"
         Me.ButtonD.Size = New System.Drawing.Size(31, 31)
         Me.ButtonD.TabIndex = 19
@@ -318,7 +321,7 @@ Partial Class Form1
         'ButtonS
         '
         Me.ButtonS.Location = New System.Drawing.Point(295, 258)
-        Me.ButtonS.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonS.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonS.Name = "ButtonS"
         Me.ButtonS.Size = New System.Drawing.Size(31, 31)
         Me.ButtonS.TabIndex = 18
@@ -328,7 +331,7 @@ Partial Class Form1
         'ButtonK
         '
         Me.ButtonK.Location = New System.Drawing.Point(503, 258)
-        Me.ButtonK.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonK.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonK.Name = "ButtonK"
         Me.ButtonK.Size = New System.Drawing.Size(31, 31)
         Me.ButtonK.TabIndex = 24
@@ -338,7 +341,7 @@ Partial Class Form1
         'ButtonJ
         '
         Me.ButtonJ.Location = New System.Drawing.Point(467, 258)
-        Me.ButtonJ.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonJ.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonJ.Name = "ButtonJ"
         Me.ButtonJ.Size = New System.Drawing.Size(31, 31)
         Me.ButtonJ.TabIndex = 23
@@ -348,7 +351,7 @@ Partial Class Form1
         'ButtonH
         '
         Me.ButtonH.Location = New System.Drawing.Point(432, 258)
-        Me.ButtonH.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonH.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonH.Name = "ButtonH"
         Me.ButtonH.Size = New System.Drawing.Size(31, 31)
         Me.ButtonH.TabIndex = 22
@@ -358,7 +361,7 @@ Partial Class Form1
         'ButtonG
         '
         Me.ButtonG.Location = New System.Drawing.Point(400, 258)
-        Me.ButtonG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonG.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonG.Name = "ButtonG"
         Me.ButtonG.Size = New System.Drawing.Size(31, 31)
         Me.ButtonG.TabIndex = 21
@@ -368,7 +371,7 @@ Partial Class Form1
         'ButtonV
         '
         Me.ButtonV.Location = New System.Drawing.Point(393, 302)
-        Me.ButtonV.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonV.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonV.Name = "ButtonV"
         Me.ButtonV.Size = New System.Drawing.Size(31, 31)
         Me.ButtonV.TabIndex = 28
@@ -378,7 +381,7 @@ Partial Class Form1
         'ButtonC
         '
         Me.ButtonC.Location = New System.Drawing.Point(359, 302)
-        Me.ButtonC.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonC.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonC.Name = "ButtonC"
         Me.ButtonC.Size = New System.Drawing.Size(31, 31)
         Me.ButtonC.TabIndex = 27
@@ -388,7 +391,7 @@ Partial Class Form1
         'ButtonX
         '
         Me.ButtonX.Location = New System.Drawing.Point(323, 302)
-        Me.ButtonX.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonX.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonX.Name = "ButtonX"
         Me.ButtonX.Size = New System.Drawing.Size(31, 31)
         Me.ButtonX.TabIndex = 26
@@ -398,7 +401,7 @@ Partial Class Form1
         'ButtonM
         '
         Me.ButtonM.Location = New System.Drawing.Point(497, 302)
-        Me.ButtonM.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonM.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonM.Name = "ButtonM"
         Me.ButtonM.Size = New System.Drawing.Size(31, 31)
         Me.ButtonM.TabIndex = 31
@@ -408,7 +411,7 @@ Partial Class Form1
         'ButtonN
         '
         Me.ButtonN.Location = New System.Drawing.Point(463, 302)
-        Me.ButtonN.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonN.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonN.Name = "ButtonN"
         Me.ButtonN.Size = New System.Drawing.Size(31, 31)
         Me.ButtonN.TabIndex = 30
@@ -418,7 +421,7 @@ Partial Class Form1
         'ButtonB
         '
         Me.ButtonB.Location = New System.Drawing.Point(428, 302)
-        Me.ButtonB.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonB.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonB.Name = "ButtonB"
         Me.ButtonB.Size = New System.Drawing.Size(31, 31)
         Me.ButtonB.TabIndex = 29
@@ -428,7 +431,7 @@ Partial Class Form1
         'ButtonP
         '
         Me.ButtonP.Location = New System.Drawing.Point(555, 217)
-        Me.ButtonP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonP.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonP.Name = "ButtonP"
         Me.ButtonP.Size = New System.Drawing.Size(31, 31)
         Me.ButtonP.TabIndex = 35
@@ -438,7 +441,7 @@ Partial Class Form1
         'ButtonL
         '
         Me.ButtonL.Location = New System.Drawing.Point(537, 258)
-        Me.ButtonL.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonL.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonL.Name = "ButtonL"
         Me.ButtonL.Size = New System.Drawing.Size(31, 31)
         Me.ButtonL.TabIndex = 34
@@ -448,7 +451,7 @@ Partial Class Form1
         'ButtonO
         '
         Me.ButtonO.Location = New System.Drawing.Point(520, 217)
-        Me.ButtonO.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonO.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonO.Name = "ButtonO"
         Me.ButtonO.Size = New System.Drawing.Size(31, 31)
         Me.ButtonO.TabIndex = 33
@@ -476,8 +479,7 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.DimGray
-        Me.Panel3.Controls.Add(Me.LabelWins)
-        Me.Panel3.Controls.Add(Me.LabelThemeHeading)
+        Me.Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel3.Controls.Add(Me.LabelTheme)
         Me.Panel3.Controls.Add(Me.Button1)
         Me.Panel3.Controls.Add(Me.ButtonZ)
@@ -509,31 +511,20 @@ Partial Class Form1
         Me.Panel3.Controls.Add(Me.ButtonF)
         Me.Panel3.Controls.Add(Me.ButtonD)
         Me.Panel3.Controls.Add(Me.Panel4)
+        Me.Panel3.Controls.Add(Me.PictureBox10)
         Me.Panel3.Location = New System.Drawing.Point(121, 108)
         Me.Panel3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(641, 380)
         Me.Panel3.TabIndex = 37
         '
-        'LabelWins
-        '
-        Me.LabelWins.AutoSize = True
-        Me.LabelWins.BackColor = System.Drawing.Color.Transparent
-        Me.LabelWins.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!)
-        Me.LabelWins.ForeColor = System.Drawing.Color.White
-        Me.LabelWins.Location = New System.Drawing.Point(16, 94)
-        Me.LabelWins.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.LabelWins.Name = "LabelWins"
-        Me.LabelWins.Size = New System.Drawing.Size(165, 24)
-        Me.LabelWins.TabIndex = 39
-        Me.LabelWins.Text = "Wins: 0 | Losses: 0"
-        '
         'LabelThemeHeading
         '
         Me.LabelThemeHeading.AutoSize = True
+        Me.LabelThemeHeading.BackColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.LabelThemeHeading.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.5!)
-        Me.LabelThemeHeading.ForeColor = System.Drawing.Color.White
-        Me.LabelThemeHeading.Location = New System.Drawing.Point(15, 123)
+        Me.LabelThemeHeading.ForeColor = System.Drawing.Color.Red
+        Me.LabelThemeHeading.Location = New System.Drawing.Point(4, 4)
         Me.LabelThemeHeading.Name = "LabelThemeHeading"
         Me.LabelThemeHeading.Size = New System.Drawing.Size(58, 20)
         Me.LabelThemeHeading.TabIndex = 41
@@ -545,7 +536,7 @@ Partial Class Form1
         Me.LabelTheme.BackColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.LabelTheme.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.LabelTheme.ForeColor = System.Drawing.Color.Red
-        Me.LabelTheme.Location = New System.Drawing.Point(20, 149)
+        Me.LabelTheme.Location = New System.Drawing.Point(20, 126)
         Me.LabelTheme.Name = "LabelTheme"
         Me.LabelTheme.Size = New System.Drawing.Size(154, 25)
         Me.LabelTheme.TabIndex = 40
@@ -554,7 +545,7 @@ Partial Class Form1
         'ButtonZ
         '
         Me.ButtonZ.Location = New System.Drawing.Point(287, 302)
-        Me.ButtonZ.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonZ.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonZ.Name = "ButtonZ"
         Me.ButtonZ.Size = New System.Drawing.Size(31, 31)
         Me.ButtonZ.TabIndex = 39
@@ -564,7 +555,7 @@ Partial Class Form1
         'ButtonA
         '
         Me.ButtonA.Location = New System.Drawing.Point(257, 258)
-        Me.ButtonA.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonA.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonA.Name = "ButtonA"
         Me.ButtonA.Size = New System.Drawing.Size(31, 31)
         Me.ButtonA.TabIndex = 38
@@ -574,7 +565,7 @@ Partial Class Form1
         'ButtonQ
         '
         Me.ButtonQ.Location = New System.Drawing.Point(239, 217)
-        Me.ButtonQ.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonQ.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonQ.Name = "ButtonQ"
         Me.ButtonQ.Size = New System.Drawing.Size(31, 31)
         Me.ButtonQ.TabIndex = 37
@@ -584,12 +575,26 @@ Partial Class Form1
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.Panel4.Controls.Add(Me.LabelThemeHeading)
         Me.Panel4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!)
-        Me.Panel4.Location = New System.Drawing.Point(19, 145)
+        Me.Panel4.Location = New System.Drawing.Point(19, 100)
         Me.Panel4.Margin = New System.Windows.Forms.Padding(3, 1, 3, 1)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(168, 33)
+        Me.Panel4.Size = New System.Drawing.Size(168, 56)
         Me.Panel4.TabIndex = 8
+        '
+        'LabelWins
+        '
+        Me.LabelWins.AutoSize = True
+        Me.LabelWins.BackColor = System.Drawing.Color.Black
+        Me.LabelWins.Font = New System.Drawing.Font("Microsoft Sans Serif", 23.0!)
+        Me.LabelWins.ForeColor = System.Drawing.Color.White
+        Me.LabelWins.Location = New System.Drawing.Point(513, 15)
+        Me.LabelWins.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LabelWins.Name = "LabelWins"
+        Me.LabelWins.Size = New System.Drawing.Size(349, 44)
+        Me.LabelWins.TabIndex = 39
+        Me.LabelWins.Text = "Wins: 0 | Losses: 0"
         '
         'Timer1
         '
@@ -604,12 +609,22 @@ Partial Class Form1
         Me.ButtonExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ButtonExit.ForeColor = System.Drawing.Color.White
         Me.ButtonExit.Location = New System.Drawing.Point(16, 15)
-        Me.ButtonExit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonExit.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonExit.Name = "ButtonExit"
         Me.ButtonExit.Size = New System.Drawing.Size(88, 41)
         Me.ButtonExit.TabIndex = 38
         Me.ButtonExit.Text = "Back"
         Me.ButtonExit.UseVisualStyleBackColor = False
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.BackgroundImage = Global.hangmantest1.My.Resources.Resources.metallic_background_with_grunge_scratched_effect
+        Me.PictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox10.Location = New System.Drawing.Point(0, -8)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(686, 415)
+        Me.PictureBox10.TabIndex = 42
+        Me.PictureBox10.TabStop = False
         '
         'Form1
         '
@@ -619,10 +634,11 @@ Partial Class Form1
         Me.BackgroundImage = Global.hangmantest1.My.Resources.Resources.warehouse_background_pzkv8y7kvdmmnyej
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(889, 527)
+        Me.Controls.Add(Me.LabelWins)
         Me.Controls.Add(Me.ButtonExit)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel3)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
@@ -638,7 +654,11 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button1 As Button
@@ -690,4 +710,5 @@ Partial Class Form1
     Friend WithEvents Panel4 As Panel
     Friend WithEvents ButtonExit As Button
     Friend WithEvents LabelWins As Label
+    Friend WithEvents PictureBox10 As PictureBox
 End Class

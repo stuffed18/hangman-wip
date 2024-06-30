@@ -57,6 +57,16 @@ hangmantest1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:hangmantest1.My.Resources.Resources.dirty_metal_texture">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:hangmantest1.My.Resources.Resources.metallic_background_with_grunge_scratched_effect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:hangmantest1.My.Resources.Resources.settingsWallpaper">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

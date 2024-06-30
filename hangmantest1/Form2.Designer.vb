@@ -45,7 +45,7 @@ Partial Class Form2
         '
         Me.ThemeRadio1.AutoSize = True
         Me.ThemeRadio1.Location = New System.Drawing.Point(13, 7)
-        Me.ThemeRadio1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ThemeRadio1.Margin = New System.Windows.Forms.Padding(4)
         Me.ThemeRadio1.Name = "ThemeRadio1"
         Me.ThemeRadio1.Size = New System.Drawing.Size(128, 29)
         Me.ThemeRadio1.TabIndex = 0
@@ -57,7 +57,7 @@ Partial Class Form2
         '
         Me.ThemeRadio2.AutoSize = True
         Me.ThemeRadio2.Location = New System.Drawing.Point(13, 36)
-        Me.ThemeRadio2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ThemeRadio2.Margin = New System.Windows.Forms.Padding(4)
         Me.ThemeRadio2.Name = "ThemeRadio2"
         Me.ThemeRadio2.Size = New System.Drawing.Size(82, 29)
         Me.ThemeRadio2.TabIndex = 1
@@ -88,7 +88,7 @@ Partial Class Form2
         Me.ButtonBack.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
         Me.ButtonBack.ForeColor = System.Drawing.Color.White
         Me.ButtonBack.Location = New System.Drawing.Point(36, 30)
-        Me.ButtonBack.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonBack.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonBack.Name = "ButtonBack"
         Me.ButtonBack.Size = New System.Drawing.Size(107, 48)
         Me.ButtonBack.TabIndex = 5
@@ -99,7 +99,7 @@ Partial Class Form2
         '
         Me.ThemeRadio3.AutoSize = True
         Me.ThemeRadio3.Location = New System.Drawing.Point(13, 64)
-        Me.ThemeRadio3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ThemeRadio3.Margin = New System.Windows.Forms.Padding(4)
         Me.ThemeRadio3.Name = "ThemeRadio3"
         Me.ThemeRadio3.Size = New System.Drawing.Size(123, 29)
         Me.ThemeRadio3.TabIndex = 6
@@ -111,7 +111,7 @@ Partial Class Form2
         '
         Me.ThemeRadio4.AutoSize = True
         Me.ThemeRadio4.Location = New System.Drawing.Point(13, 92)
-        Me.ThemeRadio4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ThemeRadio4.Margin = New System.Windows.Forms.Padding(4)
         Me.ThemeRadio4.Name = "ThemeRadio4"
         Me.ThemeRadio4.Size = New System.Drawing.Size(92, 29)
         Me.ThemeRadio4.TabIndex = 7
@@ -123,7 +123,7 @@ Partial Class Form2
         '
         Me.TimeRadio4.AutoSize = True
         Me.TimeRadio4.Location = New System.Drawing.Point(13, 89)
-        Me.TimeRadio4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TimeRadio4.Margin = New System.Windows.Forms.Padding(4)
         Me.TimeRadio4.Name = "TimeRadio4"
         Me.TimeRadio4.Size = New System.Drawing.Size(134, 29)
         Me.TimeRadio4.TabIndex = 11
@@ -135,7 +135,7 @@ Partial Class Form2
         '
         Me.TimeRadio3.AutoSize = True
         Me.TimeRadio3.Location = New System.Drawing.Point(13, 60)
-        Me.TimeRadio3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TimeRadio3.Margin = New System.Windows.Forms.Padding(4)
         Me.TimeRadio3.Name = "TimeRadio3"
         Me.TimeRadio3.Size = New System.Drawing.Size(134, 29)
         Me.TimeRadio3.TabIndex = 10
@@ -147,7 +147,7 @@ Partial Class Form2
         '
         Me.TimeRadio2.AutoSize = True
         Me.TimeRadio2.Location = New System.Drawing.Point(13, 32)
-        Me.TimeRadio2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TimeRadio2.Margin = New System.Windows.Forms.Padding(4)
         Me.TimeRadio2.Name = "TimeRadio2"
         Me.TimeRadio2.Size = New System.Drawing.Size(107, 29)
         Me.TimeRadio2.TabIndex = 9
@@ -159,7 +159,7 @@ Partial Class Form2
         '
         Me.TimeRadio1.AutoSize = True
         Me.TimeRadio1.Location = New System.Drawing.Point(13, 4)
-        Me.TimeRadio1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TimeRadio1.Margin = New System.Windows.Forms.Padding(4)
         Me.TimeRadio1.Name = "TimeRadio1"
         Me.TimeRadio1.Size = New System.Drawing.Size(117, 29)
         Me.TimeRadio1.TabIndex = 8
@@ -225,11 +225,12 @@ Partial Class Form2
         '
         'ButtonReset
         '
+        Me.ButtonReset.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ButtonReset.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ButtonReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.ButtonReset.Location = New System.Drawing.Point(425, 454)
-        Me.ButtonReset.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonReset.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonReset.Name = "ButtonReset"
         Me.ButtonReset.Size = New System.Drawing.Size(224, 34)
         Me.ButtonReset.TabIndex = 16
@@ -251,7 +252,7 @@ Partial Class Form2
         Me.Controls.Add(Me.ButtonBack)
         Me.Controls.Add(Me.Label1)
         Me.DoubleBuffered = True
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form2"
         Me.Text = "Form2"
         Me.Panel1.ResumeLayout(False)

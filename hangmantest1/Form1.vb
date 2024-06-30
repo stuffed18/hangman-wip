@@ -204,6 +204,4 @@ Public Class Form1
         My.Computer.Audio.Play(“EpicChase.wav”, AudioPlayMode.BackgroundLoop)
         Me.Hide()
     End Sub
-
-
 End Class
