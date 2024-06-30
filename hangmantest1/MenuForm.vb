@@ -30,3 +30,13 @@ Public Class MenuForm
         Me.Hide()
     End Sub
 End Class
+
+#If TARGET = "winexe" Then
+Namespace My
+    Partial Friend Class MyApplication
+        Private Sub MyApplication_Startup(ByVal sender As Object, ByVal e As ApplicationServices.StartupEventArgs) Handles Me.Startup
+            My.Computer.Audio.Play("EpicChase.wav", AudioPlayMode.BackgroundLoop)
+        End Sub
+    End Class
+End Namespace
+#End If
