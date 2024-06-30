@@ -33,7 +33,7 @@ Partial Class LogoForm
         '
         'LogoPicture
         '
-        Me.LogoPicture.Image = Global.hangmantest1.My.Resources.Resources.bangman
+        Me.LogoPicture.Image = Global.hangmantest1.My.Resources.Resources.companylogo1
         Me.LogoPicture.Location = New System.Drawing.Point(93, 53)
         Me.LogoPicture.Margin = New System.Windows.Forms.Padding(4)
         Me.LogoPicture.Name = "LogoPicture"

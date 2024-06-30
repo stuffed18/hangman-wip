@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\benson\\school\\year 10 ist\\submission vb programs\\hangman-wip\\hangmantest1\\logoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\logoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\benson\\school\\year 10 ist\\submission vb programs\\hangman-wip\\hangmantest1\\logoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\logoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\benson\\school\\year 10 ist\\submission vb programs\\hangman-wip\\hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|c:\\benson\\school\\year 10 ist\\submission vb programs\\hangman-wip\\hangmantest1\\logoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|solutionrelative:hangmantest1\\logoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55BC4BD8-4F2C-42EC-8F15-BF0E2D58D706}|hangmantest1\\hangmantest1.vbproj|C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\menuform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
@@ -48,7 +48,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -80,20 +80,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LogoForm.vb",
               "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\LogoForm.vb",
               "RelativeDocumentMoniker": "hangmantest1\\LogoForm.vb",
               "ToolTip": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\LogoForm.vb",
               "RelativeToolTip": "hangmantest1\\LogoForm.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-06-30T09:46:07.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LogoForm.vb [Design]",
               "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\LogoForm.vb",
               "RelativeDocumentMoniker": "hangmantest1\\LogoForm.vb",
@@ -105,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.vb [Design]",
               "DocumentMoniker": "C:\\Benson\\School\\Year 10 IST\\Submission VB Programs\\hangman-wip\\hangmantest1\\Form2.vb",
               "RelativeDocumentMoniker": "hangmantest1\\Form2.vb",

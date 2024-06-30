@@ -8,12 +8,15 @@
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         TimerTime += 1
         If TimerTime = 5 Then
-            My.Computer.Audio.Play("cinematic_boom.wav", AudioPlayMode.BackgroundLoop)
+            My.Computer.Audio.Play("cinematic_boom.wav", AudioPlayMode.Background)
         ElseIf TimerTime = 10 Then
             LogoPicture.Visible = True
-        ElseIf TimerTime = 20 Then
-            My.Computer.Audio.Play("EpicChase.wav", AudioPlayMode.BackgroundLoop)
+        ElseIf TimerTime = 21 Then
+            My.Computer.Audio.Play("beep.wav", AudioPlayMode.Background)
+            LogoPicture.Image = My.Resources.companylogo2
         ElseIf TimerTime = 30 Then
+            My.Computer.Audio.Play("EpicChase.wav", AudioPlayMode.BackgroundLoop)
+        ElseIf TimerTime = 40 Then
             Dim menuForm As New MenuForm()
             menuForm.Show()
             Me.Hide()
