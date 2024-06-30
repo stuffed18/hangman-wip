@@ -144,5 +144,11 @@
   <ItemGroup>
     <None Include="Resources\bombdefusalwallpaper.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingsWallpaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_358406886_CFSfvX66AmffYaxp2ezl6sSdY5xwQN4T.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

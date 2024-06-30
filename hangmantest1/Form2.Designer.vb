@@ -25,7 +25,7 @@ Partial Class Form2
         Me.ThemeRadio1 = New System.Windows.Forms.RadioButton()
         Me.ThemeRadio2 = New System.Windows.Forms.RadioButton()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ButtonBack = New System.Windows.Forms.Button()
         Me.ThemeRadio3 = New System.Windows.Forms.RadioButton()
         Me.ThemeRadio4 = New System.Windows.Forms.RadioButton()
         Me.TimeRadio4 = New System.Windows.Forms.RadioButton()
@@ -34,6 +34,9 @@ Partial Class Form2
         Me.TimeRadio1 = New System.Windows.Forms.RadioButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.ButtonReset = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -41,10 +44,9 @@ Partial Class Form2
         'ThemeRadio1
         '
         Me.ThemeRadio1.AutoSize = True
-        Me.ThemeRadio1.Location = New System.Drawing.Point(13, 4)
-        Me.ThemeRadio1.Margin = New System.Windows.Forms.Padding(4)
+        Me.ThemeRadio1.Location = New System.Drawing.Point(10, 6)
         Me.ThemeRadio1.Name = "ThemeRadio1"
-        Me.ThemeRadio1.Size = New System.Drawing.Size(94, 20)
+        Me.ThemeRadio1.Size = New System.Drawing.Size(105, 24)
         Me.ThemeRadio1.TabIndex = 0
         Me.ThemeRadio1.TabStop = True
         Me.ThemeRadio1.Text = "Electronics"
@@ -53,10 +55,9 @@ Partial Class Form2
         'ThemeRadio2
         '
         Me.ThemeRadio2.AutoSize = True
-        Me.ThemeRadio2.Location = New System.Drawing.Point(13, 32)
-        Me.ThemeRadio2.Margin = New System.Windows.Forms.Padding(4)
+        Me.ThemeRadio2.Location = New System.Drawing.Point(10, 29)
         Me.ThemeRadio2.Name = "ThemeRadio2"
-        Me.ThemeRadio2.Size = New System.Drawing.Size(63, 20)
+        Me.ThemeRadio2.Size = New System.Drawing.Size(65, 24)
         Me.ThemeRadio2.TabIndex = 1
         Me.ThemeRadio2.TabStop = True
         Me.ThemeRadio2.Text = "Tools"
@@ -65,31 +66,36 @@ Partial Class Form2
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!)
-        Me.Label1.Location = New System.Drawing.Point(281, 92)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(329, 56)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(172, 48)
+        Me.Label1.Size = New System.Drawing.Size(140, 39)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Settings"
         '
-        'Button1
+        'ButtonBack
         '
-        Me.Button1.Location = New System.Drawing.Point(153, 92)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(107, 48)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Back"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ButtonBack.BackColor = System.Drawing.Color.Transparent
+        Me.ButtonBack.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ButtonBack.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonBack.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.ButtonBack.ForeColor = System.Drawing.Color.White
+        Me.ButtonBack.Location = New System.Drawing.Point(27, 24)
+        Me.ButtonBack.Name = "ButtonBack"
+        Me.ButtonBack.Size = New System.Drawing.Size(80, 39)
+        Me.ButtonBack.TabIndex = 5
+        Me.ButtonBack.Text = "Back"
+        Me.ButtonBack.UseVisualStyleBackColor = False
         '
         'ThemeRadio3
         '
         Me.ThemeRadio3.AutoSize = True
-        Me.ThemeRadio3.Location = New System.Drawing.Point(13, 60)
-        Me.ThemeRadio3.Margin = New System.Windows.Forms.Padding(4)
+        Me.ThemeRadio3.Location = New System.Drawing.Point(10, 52)
         Me.ThemeRadio3.Name = "ThemeRadio3"
-        Me.ThemeRadio3.Size = New System.Drawing.Size(89, 20)
+        Me.ThemeRadio3.Size = New System.Drawing.Size(100, 24)
         Me.ThemeRadio3.TabIndex = 6
         Me.ThemeRadio3.TabStop = True
         Me.ThemeRadio3.Text = "Surnames"
@@ -98,10 +104,9 @@ Partial Class Form2
         'ThemeRadio4
         '
         Me.ThemeRadio4.AutoSize = True
-        Me.ThemeRadio4.Location = New System.Drawing.Point(13, 88)
-        Me.ThemeRadio4.Margin = New System.Windows.Forms.Padding(4)
+        Me.ThemeRadio4.Location = New System.Drawing.Point(10, 75)
         Me.ThemeRadio4.Name = "ThemeRadio4"
-        Me.ThemeRadio4.Size = New System.Drawing.Size(67, 20)
+        Me.ThemeRadio4.Size = New System.Drawing.Size(72, 24)
         Me.ThemeRadio4.TabIndex = 7
         Me.ThemeRadio4.TabStop = True
         Me.ThemeRadio4.Text = "Mixed!"
@@ -110,10 +115,9 @@ Partial Class Form2
         'TimeRadio4
         '
         Me.TimeRadio4.AutoSize = True
-        Me.TimeRadio4.Location = New System.Drawing.Point(4, 88)
-        Me.TimeRadio4.Margin = New System.Windows.Forms.Padding(4)
+        Me.TimeRadio4.Location = New System.Drawing.Point(10, 72)
         Me.TimeRadio4.Name = "TimeRadio4"
-        Me.TimeRadio4.Size = New System.Drawing.Size(97, 20)
+        Me.TimeRadio4.Size = New System.Drawing.Size(109, 24)
         Me.TimeRadio4.TabIndex = 11
         Me.TimeRadio4.TabStop = True
         Me.TimeRadio4.Text = "30 seconds"
@@ -122,10 +126,9 @@ Partial Class Form2
         'TimeRadio3
         '
         Me.TimeRadio3.AutoSize = True
-        Me.TimeRadio3.Location = New System.Drawing.Point(4, 60)
-        Me.TimeRadio3.Margin = New System.Windows.Forms.Padding(4)
+        Me.TimeRadio3.Location = New System.Drawing.Point(10, 49)
         Me.TimeRadio3.Name = "TimeRadio3"
-        Me.TimeRadio3.Size = New System.Drawing.Size(97, 20)
+        Me.TimeRadio3.Size = New System.Drawing.Size(109, 24)
         Me.TimeRadio3.TabIndex = 10
         Me.TimeRadio3.TabStop = True
         Me.TimeRadio3.Text = "45 seconds"
@@ -134,10 +137,9 @@ Partial Class Form2
         'TimeRadio2
         '
         Me.TimeRadio2.AutoSize = True
-        Me.TimeRadio2.Location = New System.Drawing.Point(4, 32)
-        Me.TimeRadio2.Margin = New System.Windows.Forms.Padding(4)
+        Me.TimeRadio2.Location = New System.Drawing.Point(10, 26)
         Me.TimeRadio2.Name = "TimeRadio2"
-        Me.TimeRadio2.Size = New System.Drawing.Size(77, 20)
+        Me.TimeRadio2.Size = New System.Drawing.Size(88, 24)
         Me.TimeRadio2.TabIndex = 9
         Me.TimeRadio2.TabStop = True
         Me.TimeRadio2.Text = "1 minute"
@@ -146,10 +148,9 @@ Partial Class Form2
         'TimeRadio1
         '
         Me.TimeRadio1.AutoSize = True
-        Me.TimeRadio1.Location = New System.Drawing.Point(4, 4)
-        Me.TimeRadio1.Margin = New System.Windows.Forms.Padding(4)
+        Me.TimeRadio1.Location = New System.Drawing.Point(10, 3)
         Me.TimeRadio1.Name = "TimeRadio1"
-        Me.TimeRadio1.Size = New System.Drawing.Size(84, 20)
+        Me.TimeRadio1.Size = New System.Drawing.Size(96, 24)
         Me.TimeRadio1.TabIndex = 8
         Me.TimeRadio1.TabStop = True
         Me.TimeRadio1.Text = "2 minutes"
@@ -157,36 +158,85 @@ Partial Class Form2
         '
         'Panel1
         '
+        Me.Panel1.BackColor = System.Drawing.Color.Transparent
         Me.Panel1.Controls.Add(Me.ThemeRadio1)
         Me.Panel1.Controls.Add(Me.ThemeRadio2)
         Me.Panel1.Controls.Add(Me.ThemeRadio3)
         Me.Panel1.Controls.Add(Me.ThemeRadio4)
-        Me.Panel1.Location = New System.Drawing.Point(153, 239)
+        Me.Panel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.Panel1.ForeColor = System.Drawing.Color.White
+        Me.Panel1.Location = New System.Drawing.Point(412, 131)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(200, 115)
+        Me.Panel1.Size = New System.Drawing.Size(116, 105)
         Me.Panel1.TabIndex = 12
         '
         'Panel2
         '
+        Me.Panel2.BackColor = System.Drawing.Color.Transparent
         Me.Panel2.Controls.Add(Me.TimeRadio1)
         Me.Panel2.Controls.Add(Me.TimeRadio2)
         Me.Panel2.Controls.Add(Me.TimeRadio4)
         Me.Panel2.Controls.Add(Me.TimeRadio3)
-        Me.Panel2.Location = New System.Drawing.Point(391, 243)
+        Me.Panel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.Panel2.ForeColor = System.Drawing.Color.White
+        Me.Panel2.Location = New System.Drawing.Point(411, 253)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(200, 112)
+        Me.Panel2.Size = New System.Drawing.Size(116, 99)
         Me.Panel2.TabIndex = 13
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(271, 131)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(127, 25)
+        Me.Label2.TabIndex = 14
+        Me.Label2.Text = "Word Theme"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(271, 253)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(101, 25)
+        Me.Label3.TabIndex = 15
+        Me.Label3.Text = "Time Limit"
+        '
+        'ButtonReset
+        '
+        Me.ButtonReset.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonReset.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.ButtonReset.Location = New System.Drawing.Point(319, 369)
+        Me.ButtonReset.Name = "ButtonReset"
+        Me.ButtonReset.Size = New System.Drawing.Size(168, 28)
+        Me.ButtonReset.TabIndex = 16
+        Me.ButtonReset.Text = "Recommended Settings"
+        Me.ButtonReset.UseVisualStyleBackColor = True
         '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1067, 554)
+        Me.BackgroundImage = Global.hangmantest1.My.Resources.Resources.settingsWallpaper
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(804, 461)
+        Me.Controls.Add(Me.ButtonReset)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ButtonBack)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.DoubleBuffered = True
         Me.Name = "Form2"
         Me.Text = "Form2"
         Me.Panel1.ResumeLayout(False)
@@ -201,7 +251,7 @@ Partial Class Form2
     Friend WithEvents ThemeRadio1 As RadioButton
     Friend WithEvents ThemeRadio2 As RadioButton
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents ButtonBack As Button
     Friend WithEvents ThemeRadio3 As RadioButton
     Friend WithEvents ThemeRadio4 As RadioButton
     Friend WithEvents TimeRadio4 As RadioButton
@@ -210,4 +260,7 @@ Partial Class Form2
     Friend WithEvents TimeRadio1 As RadioButton
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents ButtonReset As Button
 End Class

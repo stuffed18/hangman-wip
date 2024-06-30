@@ -34,22 +34,20 @@ Module GlobalVariables
         "data",
         "boot",
         "chip",
-        "port"
+        "port",
+        "cable"
     }
     Public WordList2 As New List(Of String) From {
         "file",
         "pick",
         "drill",
         "spade",
-        "ruler",
         "knife",
         "pliers",
         "wrench",
-        "chisel",
         "hammer",
         "crowbar",
         "spanner",
-        "scalpel",
         "stapler",
         "trowel",
         "clamp",
@@ -57,11 +55,11 @@ Module GlobalVariables
         "shears",
         "punch",
         "shovel",
-        "tongs",
         "welder",
         "jack",
         "vise",
-        "wedge"
+        "cutter",
+        "probe"
     }
     Public WordList3 As New List(Of String) From {
         "bond",
@@ -110,7 +108,7 @@ End Module
 
 Public Class Form2
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles ButtonBack.Click
         Dim menuForm As New MenuForm()
         'menuForm.SelectedWordListIndex = whichWordList
         menuForm.Show()
@@ -124,6 +122,14 @@ Public Class Form2
 
         ThemeRadios(GlobalVariables.whichWordList - 1).Checked = True
         TimeRadios(GlobalVariables.timeSelected - 1).Checked = True
+
+        ButtonBack.BackColor = Color.Transparent
+        ButtonBack.ForeColor = Color.White
+        ButtonBack.FlatAppearance.BorderSize = 1
+        ButtonReset.BackColor = Color.Transparent
+        ButtonReset.ForeColor = Color.White
+        ButtonReset.FlatAppearance.BorderSize = 1
+
     End Sub
 
     Private Sub Theme_CheckedChanged(sender As Object, e As EventArgs) Handles ThemeRadio1.CheckedChanged, ThemeRadio2.CheckedChanged
@@ -148,5 +154,10 @@ Public Class Form2
         ElseIf TimeRadio4.Checked Then
             GlobalVariables.timeSelected = 4
         End If
+    End Sub
+
+    Private Sub ButtonReset_Click(sender As Object, e As EventArgs) Handles ButtonReset.Click
+        ThemeRadio4.Checked = True
+        TimeRadio2.Checked = True
     End Sub
 End Class
