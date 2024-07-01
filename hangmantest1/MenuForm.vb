@@ -36,4 +36,12 @@ Public Class MenuForm
         Me.Hide()
 
     End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        Dim missionForm As New MissionForm
+        'gameForm.SelectedWordListIndex = SelectedWordListIndex
+        missionForm.Show()
+        Me.Hide()
+
+    End Sub
 End Class

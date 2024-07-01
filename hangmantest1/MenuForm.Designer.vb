@@ -26,7 +26,9 @@ Partial Class MenuForm
         Me.ButtonSettings = New System.Windows.Forms.Button()
         Me.ButtonTutorial = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ButtonPlay
@@ -37,7 +39,7 @@ Partial Class MenuForm
         Me.ButtonPlay.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ButtonPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonPlay.Font = New System.Drawing.Font("Microsoft Sans Serif", 32.0!)
-        Me.ButtonPlay.Location = New System.Drawing.Point(876, 252)
+        Me.ButtonPlay.Location = New System.Drawing.Point(527, 269)
         Me.ButtonPlay.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.ButtonPlay.Name = "ButtonPlay"
         Me.ButtonPlay.Size = New System.Drawing.Size(207, 106)
@@ -87,6 +89,17 @@ Partial Class MenuForm
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox2.Image = Global.hangmantest1.My.Resources.Resources.logo
+        Me.PictureBox2.Location = New System.Drawing.Point(876, 228)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(207, 126)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 4
+        Me.PictureBox2.TabStop = False
+        '
         'MenuForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -94,6 +107,7 @@ Partial Class MenuForm
         Me.BackgroundImage = Global.hangmantest1.My.Resources.Resources.bombdefusalwallpaper
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1206, 709)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.ButtonTutorial)
         Me.Controls.Add(Me.ButtonSettings)
         Me.Controls.Add(Me.ButtonPlay)
@@ -103,6 +117,7 @@ Partial Class MenuForm
         Me.Text = "MenuForm"
         Me.TransparencyKey = System.Drawing.Color.RosyBrown
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -111,4 +126,5 @@ Partial Class MenuForm
     Friend WithEvents ButtonSettings As Button
     Friend WithEvents ButtonTutorial As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
 End Class
