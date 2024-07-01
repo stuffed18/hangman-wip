@@ -72,7 +72,17 @@ hangmantest1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:hangmantest1.My.Resources.Resources.Screenshot_2024_07_01_at_18_50_26_skull_logo_fire___Google_Search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:hangmantest1.My.Resources.Resources.settingsWallpaper">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:hangmantest1.My.Resources.Resources.trophy_00">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
