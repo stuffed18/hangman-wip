@@ -165,6 +165,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property medal() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("medal", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property metallic_background_with_grunge_scratched_effect() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("metallic-background-with-grunge-scratched-effect", resourceCulture)
@@ -188,6 +198,16 @@ Namespace My.Resources
         Friend ReadOnly Property settingsWallpaper() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("settingsWallpaper", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property skull__1_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("skull (1)", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

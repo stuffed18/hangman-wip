@@ -640,7 +640,7 @@ Partial Class Form1
         Me.ButtonExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ButtonExit.ForeColor = System.Drawing.Color.White
-        Me.ButtonExit.Location = New System.Drawing.Point(16, 10)
+        Me.ButtonExit.Location = New System.Drawing.Point(23, 10)
         Me.ButtonExit.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonExit.Name = "ButtonExit"
         Me.ButtonExit.Size = New System.Drawing.Size(88, 41)
@@ -667,7 +667,7 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!)
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(841, 11)
+        Me.Label3.Location = New System.Drawing.Point(822, 11)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(36, 39)
@@ -677,7 +677,7 @@ Partial Class Form1
         'PictureBox11
         '
         Me.PictureBox11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox11.Image = Global.hangmantest1.My.Resources.Resources.trophy_00
+        Me.PictureBox11.Image = Global.hangmantest1.My.Resources.Resources.medal
         Me.PictureBox11.Location = New System.Drawing.Point(667, 11)
         Me.PictureBox11.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox11.Name = "PictureBox11"
@@ -689,8 +689,8 @@ Partial Class Form1
         'PictureBox12
         '
         Me.PictureBox12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox12.Image = Global.hangmantest1.My.Resources.Resources.trophy_00
-        Me.PictureBox12.Location = New System.Drawing.Point(795, 11)
+        Me.PictureBox12.Image = Global.hangmantest1.My.Resources.Resources.skull__1_
+        Me.PictureBox12.Location = New System.Drawing.Point(776, 11)
         Me.PictureBox12.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(44, 41)
@@ -700,7 +700,7 @@ Partial Class Form1
         '
         'Panel5
         '
-        Me.Panel5.BackColor = System.Drawing.Color.Black
+        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Panel5.Controls.Add(Me.Label3)
         Me.Panel5.Controls.Add(Me.PictureBox12)
         Me.Panel5.Controls.Add(Me.Label2)
@@ -708,7 +708,7 @@ Partial Class Form1
         Me.Panel5.Location = New System.Drawing.Point(-4, -2)
         Me.Panel5.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(910, 69)
+        Me.Panel5.Size = New System.Drawing.Size(910, 61)
         Me.Panel5.TabIndex = 44
         '
         'Form1

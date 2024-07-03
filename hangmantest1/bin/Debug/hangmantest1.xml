@@ -72,6 +72,11 @@ hangmantest1
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:hangmantest1.My.Resources.Resources.medal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:hangmantest1.My.Resources.Resources.metallic_background_with_grunge_scratched_effect">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -83,6 +88,11 @@ hangmantest1
 </summary>
 </member>
 <member name="P:hangmantest1.My.Resources.Resources.settingsWallpaper">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:hangmantest1.My.Resources.Resources.skull__1_">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

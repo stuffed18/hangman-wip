@@ -228,5 +228,11 @@
   <ItemGroup>
     <None Include="Resources\grid-room-in-perspective-illustration-in-3d-style-indoor-wireframe-from-green-lines-template-interior-square-digital-empty-box-laser-beam-on-black-background-vector.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skull %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
