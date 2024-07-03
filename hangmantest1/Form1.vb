@@ -20,8 +20,8 @@ Public Class Form1
         startGame()
         gameWins = 0
         gameLosses = 0
-        UpdateWinLossLabels()
-
+        Label2.Text = "0"
+        Label3.Text = "0"
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -120,16 +120,10 @@ Public Class Form1
         Label1.Text = displayedWord
 
         If Not displayedWord.Contains("_") Then
-            gameWon = True
-            gameOver = True
-            Timer1.Stop()
-            gameWins += 1
-            UpdateWinLossLabels()
+            UpdateWinLossLabels(True)
             MessageBox.Show("You won!")
         ElseIf remainingAttempts <= 0 Then
-            gameOver = True
-            gameLosses += 1
-            UpdateWinLossLabels()
+            UpdateWinLossLabels(False)
             Timer1.Stop()
             MessageBox.Show("Game Over! The word was: " & wordToGuess)
         End If
@@ -192,8 +186,7 @@ Public Class Form1
 
         If TimerTime = 0 Then
             Label4.Text = "00:00"
-            Timer1.Stop()
-            gameOver = True
+            UpdateWinLossLabels(False)
             MessageBox.Show("Time's up! The word was: " & wordToGuess)
         End If
     End Sub
@@ -205,7 +198,15 @@ Public Class Form1
         Me.Hide()
     End Sub
 
-    Private Sub UpdateWinLossLabels()
+    Private Sub UpdateWinLossLabels(winTrue As Boolean)
+        Timer1.Stop()
+        gameOver = True
+        If winTrue Then
+            gameWins += 1
+            gameWon = True
+        Else
+            gameLosses += 1
+        End If
         Label2.Text = gameWins.ToString()
         Label3.Text = gameLosses.ToString()
     End Sub
