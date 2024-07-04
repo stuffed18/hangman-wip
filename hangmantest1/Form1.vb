@@ -121,11 +121,11 @@ Public Class Form1
 
         If Not displayedWord.Contains("_") Then
             UpdateWinLossLabels(True)
-            MessageBox.Show("You won!")
+            MessageBox.Show("Mission success!")
         ElseIf remainingAttempts <= 0 Then
             UpdateWinLossLabels(False)
             Timer1.Stop()
-            MessageBox.Show("Game Over! The word was: " & wordToGuess)
+            MessageBox.Show("Mission failed! The word was: " & wordToGuess)
         End If
 
         If correctGuess Then
@@ -140,7 +140,7 @@ Public Class Form1
         End If
 
         If gameOver OrElse gameWon Then
-            MessageBox.Show("The game has ended")
+            MessageBox.Show("The mission has ended. Click restart to start another.")
             Return
         End If
 

@@ -38,7 +38,7 @@ Partial Class MenuForm
         Me.ButtonPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonPlay.Font = New System.Drawing.Font("Microsoft Sans Serif", 32.0!)
         Me.ButtonPlay.Location = New System.Drawing.Point(767, 207)
-        Me.ButtonPlay.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonPlay.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonPlay.Name = "ButtonPlay"
         Me.ButtonPlay.Size = New System.Drawing.Size(184, 85)
         Me.ButtonPlay.TabIndex = 0
@@ -53,7 +53,7 @@ Partial Class MenuForm
         Me.ButtonSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonSettings.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
         Me.ButtonSettings.Location = New System.Drawing.Point(767, 299)
-        Me.ButtonSettings.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonSettings.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonSettings.Name = "ButtonSettings"
         Me.ButtonSettings.Size = New System.Drawing.Size(184, 49)
         Me.ButtonSettings.TabIndex = 1
@@ -68,7 +68,7 @@ Partial Class MenuForm
         Me.ButtonTutorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonTutorial.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
         Me.ButtonTutorial.Location = New System.Drawing.Point(767, 353)
-        Me.ButtonTutorial.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ButtonTutorial.Margin = New System.Windows.Forms.Padding(4)
         Me.ButtonTutorial.Name = "ButtonTutorial"
         Me.ButtonTutorial.Size = New System.Drawing.Size(184, 49)
         Me.ButtonTutorial.TabIndex = 2
@@ -79,8 +79,8 @@ Partial Class MenuForm
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = Global.hangmantest1.My.Resources.Resources.BangmanLogo2
-        Me.PictureBox1.Location = New System.Drawing.Point(496, 3)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Location = New System.Drawing.Point(503, 3)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(532, 196)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -98,7 +98,7 @@ Partial Class MenuForm
         Me.Controls.Add(Me.ButtonSettings)
         Me.Controls.Add(Me.ButtonPlay)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "MenuForm"
         Me.Text = "MenuForm"
         Me.TransparencyKey = System.Drawing.Color.RosyBrown
