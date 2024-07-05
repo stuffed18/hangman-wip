@@ -27,6 +27,7 @@ Partial Class MenuForm
         Me.ButtonSettings = New System.Windows.Forms.Button()
         Me.ButtonTutorial = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ButtonExit = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -88,6 +89,22 @@ Partial Class MenuForm
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
+        'ButtonExit
+        '
+        Me.ButtonExit.BackColor = System.Drawing.SystemColors.Control
+        Me.ButtonExit.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ButtonExit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonExit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ButtonExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
+        Me.ButtonExit.Location = New System.Drawing.Point(767, 410)
+        Me.ButtonExit.Margin = New System.Windows.Forms.Padding(4)
+        Me.ButtonExit.Name = "ButtonExit"
+        Me.ButtonExit.Size = New System.Drawing.Size(184, 51)
+        Me.ButtonExit.TabIndex = 4
+        Me.ButtonExit.Text = "Exit Game"
+        Me.ButtonExit.UseVisualStyleBackColor = False
+        '
         'MenuForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -95,6 +112,7 @@ Partial Class MenuForm
         Me.BackgroundImage = Global.hangmantest1.My.Resources.Resources.bombdefusalwallpaper
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1072, 567)
+        Me.Controls.Add(Me.ButtonExit)
         Me.Controls.Add(Me.ButtonTutorial)
         Me.Controls.Add(Me.ButtonSettings)
         Me.Controls.Add(Me.ButtonPlay)
@@ -113,4 +131,5 @@ Partial Class MenuForm
     Friend WithEvents ButtonSettings As Button
     Friend WithEvents ButtonTutorial As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents ButtonExit As Button
 End Class

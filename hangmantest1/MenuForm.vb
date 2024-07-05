@@ -22,6 +22,10 @@ Public Class MenuForm
         ButtonTutorial.BackColor = Color.Transparent
         ButtonTutorial.ForeColor = Color.White
         ButtonTutorial.FlatAppearance.BorderSize = 1
+
+        ButtonExit.BackColor = Color.Transparent
+        ButtonExit.ForeColor = Color.White
+        ButtonExit.FlatAppearance.BorderSize = 1
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles ButtonSettings.Click
@@ -43,5 +47,10 @@ Public Class MenuForm
         missionForm.Show()
         Me.Hide()
 
+    End Sub
+
+    Private Sub ButtonExit_Click(sender As Object, e As EventArgs) Handles ButtonExit.Click
+        My.Computer.Audio.Stop()
+        Me.Close()
     End Sub
 End Class
