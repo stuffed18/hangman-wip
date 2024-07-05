@@ -133,8 +133,9 @@ Partial Class MissionForm
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.MissionTextLabel)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "MissionForm"
-        Me.Text = "MissionForm"
+        Me.Text = "Bangman"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

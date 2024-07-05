@@ -22,6 +22,7 @@ Partial Class MenuForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MenuForm))
         Me.ButtonPlay = New System.Windows.Forms.Button()
         Me.ButtonSettings = New System.Windows.Forms.Button()
         Me.ButtonTutorial = New System.Windows.Forms.Button()
@@ -79,7 +80,7 @@ Partial Class MenuForm
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = Global.hangmantest1.My.Resources.Resources.BangmanLogo2
-        Me.PictureBox1.Location = New System.Drawing.Point(503, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(504, 3)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(532, 196)
@@ -98,9 +99,10 @@ Partial Class MenuForm
         Me.Controls.Add(Me.ButtonSettings)
         Me.Controls.Add(Me.ButtonPlay)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "MenuForm"
-        Me.Text = "MenuForm"
+        Me.Text = "Bangman"
         Me.TransparencyKey = System.Drawing.Color.RosyBrown
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

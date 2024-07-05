@@ -23,6 +23,7 @@ Partial Class LogoForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LogoForm))
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.LogoPicture = New System.Windows.Forms.PictureBox()
         CType(Me.LogoPicture, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -50,8 +51,9 @@ Partial Class LogoForm
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.LogoPicture)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "LogoForm"
-        Me.Text = "LogoForm"
+        Me.Text = "Bangman"
         CType(Me.LogoPicture, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

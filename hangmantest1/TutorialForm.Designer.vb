@@ -22,6 +22,7 @@ Partial Class TutorialForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TutorialForm))
         Me.ButtonBack = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -49,9 +50,10 @@ Partial Class TutorialForm
         Me.ClientSize = New System.Drawing.Size(832, 653)
         Me.Controls.Add(Me.ButtonBack)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "TutorialForm"
-        Me.Text = "TutorialForm"
+        Me.Text = "Bangman"
         Me.ResumeLayout(False)
 
     End Sub

@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.ThemeRadio1 = New System.Windows.Forms.RadioButton()
         Me.ThemeRadio2 = New System.Windows.Forms.RadioButton()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -252,9 +253,10 @@ Partial Class Form2
         Me.Controls.Add(Me.ButtonBack)
         Me.Controls.Add(Me.Label1)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form2"
-        Me.Text = "Form2"
+        Me.Text = "Bangman"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
