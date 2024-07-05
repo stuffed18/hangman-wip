@@ -158,6 +158,28 @@ Public Class Form1
 
     End Sub
 
+    Private Sub Letter_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyDown
+        Dim LetterButtons = {ButtonA, ButtonB, ButtonC, ButtonD, ButtonE, ButtonF, ButtonG, ButtonH, ButtonI, ButtonJ, ButtonK, ButtonL, ButtonM, ButtonN, ButtonO, ButtonP, ButtonQ, ButtonR, ButtonS, ButtonT, ButtonU, ButtonV, ButtonW, ButtonX, ButtonY, ButtonZ}
+        Dim AlphabetLetters = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"}
+        Dim LetButton As Object = ButtonH
+        If e.KeyCode >= Keys.A And e.KeyCode <= Keys.Z Then
+            letterInput = Chr(e.KeyCode + 32)
+            Dim letterInd As Integer = Asc(letterInput) - 97
+            LetButton = LetterButtons(letterInd)
+        End If
+
+        If Not guessedLetters.Contains(letterInput) Then
+            guessedLetters.Add(letterInput)
+            Dim correctGuess As Boolean = updateDisplayedWord()
+
+            If correctGuess Then
+                LetButton.BackColor = Color.Lime
+            Else
+                LetButton.Enabled = False
+            End If
+        End If
+    End Sub
+
     Public Sub updateAttemptBoxes()
         Dim attemptBoxes As PictureBox() = {PictureBox1, PictureBox2, PictureBox3, PictureBox6, PictureBox5, PictureBox4, PictureBox7, PictureBox8, PictureBox9}
         Dim index As Integer = maxAttempts - remainingAttempts - 1
